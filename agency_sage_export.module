@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_views_api().
+ */
+function agency_sage_export_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'agency_sage_export'),
+    'template path' => drupal_get_path('module', 'agency_sage_export'),
+  );
+}
