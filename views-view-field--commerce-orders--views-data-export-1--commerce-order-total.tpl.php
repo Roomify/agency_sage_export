@@ -22,5 +22,5 @@
  * the view is modified.
  */
 ?>
-<? $output = (((int) $output) / 100); ?>
+<? $output = -(((int) $output) / 100); ?>
 <?php print $output; ?>
